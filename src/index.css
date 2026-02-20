@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-medical-teal: #0d9488;
+  --color-medical-teal-light: #f0fdfa;
+  --color-medical-teal-dark: #0f766e;
+  --color-medical-gray: #64748b;
+  --color-medical-bg: #f8fafc;
+}
+
+@layer base {
+  body {
+    @apply bg-medical-bg text-slate-900 font-sans;
+  }
+}
+
+.disclaimer-banner {
+  @apply bg-amber-50 border-l-4 border-amber-400 p-4 text-amber-800 text-sm italic;
+}
+
+.card-medical {
+  @apply bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden transition-all hover:shadow-md;
+}

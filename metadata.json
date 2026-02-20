@@ -1,0 +1,7 @@
+{
+  "name": "Med-Veritas",
+  "description": "AI-powered medicine authenticity verifier and prescription reader using Gemini Vision.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
