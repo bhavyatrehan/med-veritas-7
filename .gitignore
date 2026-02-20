@@ -6,4 +6,4 @@ coverage/
 *.log
 .env*
 !.env.example
-GEMINI_API_KEY="AIzaSyCmRuBup2bF5eIiHgt_OpqMxKuvRY8ndyM"
+
